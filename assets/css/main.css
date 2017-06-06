@@ -1,0 +1,16 @@
+body{
+	background: none;
+	width: 100%;
+	padding: 2%;
+}
+img{
+	
+	padding: 2%;
+}
+#container{
+	padding: 5%;
+}
+.col-12 {
+	text-align: center;
+	margin: 3%;
+}
