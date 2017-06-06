@@ -1,16 +1,19 @@
 body{
-	background: none;
 	width: 100%;
-	padding: 2%;
+	margin:0;
+	padding: 0;
 }
-img{
-	
-	padding: 2%;
+
+.container{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	position: relative;
+	justify-content: center;
 }
-#container{
-	padding: 5%;
-}
-.col-12 {
-	text-align: center;
-	margin: 3%;
+
+.gato{
+	position: absolute;
+	top: 280px;
+
 }

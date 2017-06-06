@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
 	<title>Kitten Laboratoria</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/grilla.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/media.css">
 </head>
 <body>
 	<div class="container">
-		<div class="flex-conteiner">
-			<div class="col-12">
-			<img src="assets/img/primera.jpg" alt="">
-				<img src="assets/img/gato-primero.png" alt="">
-			</div>
-		</div>
+		<picture class="gato">
+			<source media= "assets/img/gato-primero.png" srcset="(min-width: 1050px)">
+
+			<source media="assets/img/gato-segundo.png" srcset="(min-width:551px)">
+
+			<img src="assets/img/gato-ultimo.png" alt="fondo">
+			</picture>
 	</div>
 </body>
 </html>
